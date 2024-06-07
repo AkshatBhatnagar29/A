@@ -7,7 +7,7 @@ import Sale from './components/Sale.js';
 function App() {
   return (
     <div >
-   
+   <Navbar/>
     <Sale/>
     </div>
   );

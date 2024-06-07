@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    color:antiquewhite;
+    background-image:url("ownHouse\ \(2\).jpg");
+    background-size:auto;
 }
 
 
@@ -17,9 +20,11 @@ body {
     border-radius: 20px;
     font-size: 16px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .search-form button {
+    margin-top: 10px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -29,10 +34,18 @@ body {
     cursor: pointer;
 }
 
-.search-form button:hover {
-    background-color: #0056b3;
+.card{
+    padding-bottom: 10px;
 }
-
 main {
-    padding-top: 60px; /* Ensure content does not go under the fixed header */
+    padding-top: 60px; 
+}
+@media screen and (max-width:1080px){
+    .card {
+        
+        height:50px;
+        
+        
+        margin-left:5px;
+    }
 }

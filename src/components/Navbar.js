@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
 
-    <div class="navbar">
+    <div className="navbar">
         <div className="title">Basera</div>
         <ul>
             <li><a href="#home">Home</a></li>
