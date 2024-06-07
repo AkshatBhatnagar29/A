@@ -1,11 +1,11 @@
 import React from 'react'
 
-export  function SaleCards(props) {
+export function BuyCards(props) {
   return (
     <div>
       <div>
                 
-                <div className="card card border-light mb-3  text-bg-success mb-3  "  style={{ margin:"0 px", width: "18rem" , minHeight: "50 px",maxHeight:"355px",color:"brown",backgroundColor:"blue"}}>
+                <div className="card card border-light mb-3  text-bg-success mb-3  "  style={{ width: "18rem" , minHeight: "50 px",maxHeight:"355px",color:"brown",backgroundColor:"blue"}}>
                    
                     <div className="card-body">
                         <h5 className="card-title" >Place :{props.place}</h5>
