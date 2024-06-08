@@ -3,7 +3,7 @@ import './Buy.css';
 import { BuyCards } from './buyCards.js';
 import { ground } from '../data.js';
 
-export default function Sale() {
+export default function Buy() {
   const [search, setSearch] = useState("");
   const [groundArray, setGroundArray] = useState([]);
 

@@ -8,10 +8,8 @@ export default function Navbar() {
     <div className="navbar">
         <div className="title">Basera</div>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#aboutus">We</a></li>
-            <li><a href="#login">Log</a></li>
-            <button></button>
+            <li><link to="/">Home</link></li>
+            <li><link to="/aboutus">AboutUs</link></li>
         </ul>
        
     </div>
